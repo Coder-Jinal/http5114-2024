@@ -19,6 +19,6 @@ https://www.codecademy.com/catalog/subject/web-development
 
 Command that shows how to push the content on git
 
-git add .
+git add . </br>
 git commit -am"" </br>
 git push
