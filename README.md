@@ -10,4 +10,6 @@ https://www.codecademy.com/catalog/subject/web-development
 
 # Images
 ![Mymi pics](Screenshot 2024-10-26 010909.jpg).
+
+
 > **Information**: This course encourages active learning and peer support, so take advantage of all available resources and seek help when needed!
