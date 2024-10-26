@@ -9,6 +9,5 @@ This course will allow students to access additional support for content deliver
 https://www.codecademy.com/catalog/subject/web-development
 
 # Images
-![Workshop Screenshot](Screenshot 2024-10-26 010909.png)
-
+![Mymi pics](Screenshot 2024-10-26 010909.png).
 > **Information**: This course encourages active learning and peer support, so take advantage of all available resources and seek help when needed!
