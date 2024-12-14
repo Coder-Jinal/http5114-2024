@@ -9,102 +9,66 @@
 	<script src="assets/script.js"></script>
 </head>
 <body>
-
-	<main>
-		<header>
-			<h1>Coding from Scratch Exercises</h1>
-		</header>
+	<header>
+		<h1>Coding from Scratch Exercises</h1>
+	  </header>
+	  <main>
+		<!-- Accordion Section -->
 		<section>
-
-			<div class="inner-block">
-				<h2 class="title">Accordion</h2>
-
-				<div class="accordian-block">
-					<button class="accordion">Workshops in Web Dev 1</button>
-					<div class="panel">
-						<p>This course will allow students to access additional support for content delivered in the other classes each semester. Every student in the class will engage in a process of self-assessment to help them identify areas where they would benefit from help, and then the student and teaching team will set up a process for providing support for any areas where the student would benefit from some in-the-moment support. Mentors, tutors and workshops will be available.</p>
-					</div>
-				</div>
-
-				<div class="accordian-block">
-					<button class="accordion">Web Design</button>
-					<div class="panel">
-						<p>This course delivers the fundamentals of well-formed, semantic HTML markup and CSS. Students will design and build responsive web interfaces based on mock-ups that are optimized for accessibility and search engines (SEO).</p>
-					</div>
-				</div>
-
-				<div class="accordian-block">
-					<button class="accordion">Front-End Web Development</button>
-					<div class="panel">
-						<p>This course delivers the fundamentals of computer programming and introduces the tools for creating interactive web pages using the JavaScript programming language.</p>
-					</div>
-				</div>
-			</div>
-
+		  <h2 class="section-title">Accordion</h2>
+		  <button class="accordion">Section 1</button>
+		  <div class="panel">
+			<p>Content for section 1 goes here.</p>
+		  </div>
+		  <button class="accordion">Section 2</button>
+		  <div class="panel">
+			<p>Content for section 2 goes here.</p>
+		  </div>
+		  <button class="accordion">Section 3</button>
+		  <div class="panel">
+			<p>Content for section 3 goes here.</p>
+		  </div>
 		</section>
-
+	
+		<!-- Slideshow Section -->
 		<section>
-
-			<div class="inner-block">
-				<h2 class="title">Slideshow</h2>
-
-				<div class="slideshow-container">
-
-					<div class="mySlides">
-						<img src="assets/images/lamp.jpg">
-					</div>
-
-					<div class="mySlides">
-						<img src="assets/images/lemp.jpg">
-					</div>
-
-					<div class="mySlides">
-						<img src="assets/images/mern.jpg">
-					</div>
-
-					<div class="mySlides">
-						<img src="assets/images/mean.jpg">
-					</div>
-
-					<a class="prev" onclick="plusSlides(-1)">❮</a>
-					<a class="next" onclick="plusSlides(1)">❯</a>
-
-				</div>
-
+		  <h2 class="section-title">Slideshow</h2>
+		  <div class="slideshow-container">
+			<div class="mySlides fade">
+			  <img src="./assets/images/beach.png" alt="img1">
 			</div>
-
+			<div class="mySlides fade">
+			  <img src="./assets/images/city.jpg" alt="img2">
+			</div>
+			<div class="mySlides fade">
+			  <img src="./assets/images/hills.jpg" alt="img3">
+			</div>
+			<div class="mySlides fade">
+				<img src="./assets/images/red.png" alt="img4">
+			  </div>
+			<button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+			<button class="next" onclick="plusSlides(1)">&#10095;</button>
+		  </div>
 		</section>
-
-
+	
+		<!-- Books Section -->
 		<section>
-
-			<div class="inner-block">
-				<h2 class="title">Monty Hall</h2>
-				<p>Choose a door: The goal is to pick the door with the prize behind it!</p>
-
-				<button class="btn" onclick="playGame(1)">Door 1</button>
-				<button class="btn" onclick="playGame(2)">Door 2</button>
-				<button class="btn" onclick="playGame(3)">Door 3</button>
-
-				<div id="resultMonty"></div>
-
-			</div>
-
+		  <h2 class="section-title">Books API</h2>
+		  <div id="bookList" class="book-container"></div>
 		</section>
-
-
+	
+		<!-- Monty Hall Game Section -->
 		<section>
-
-			<div class="inner-block">
-				<h2 class="title">Google Books API Integration</h2>
-
-				<div id="bookList"></div>
-
-			</div>
-
+		  <h2 class="section-title">Monty Hall Game</h2>
+		  <div id="resultMonty" class="game-result"></div>
+		  <div class="button-group">
+			<button onclick="playGame(1)">Choose Door 1</button>
+			<button onclick="playGame(2)">Choose Door 2</button>
+			<button onclick="playGame(3)">Choose Door 3</button>
+		  </div>
 		</section>
-
-	</main>
+		
+	  </main>
 
 </body>
 </html>
